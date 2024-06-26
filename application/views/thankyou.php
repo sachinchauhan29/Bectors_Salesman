@@ -100,7 +100,7 @@
 
                                     <div class="col-12">
                                         <font class="fnt">
-                                            <p style="font-size:18px">You have won <?php echo $totalAmount; ?> Rs. On
+                                            <p style="font-size:18px">You have won ₹ <?php echo $totalAmount; ?> On
                                                 the purchase of English Oven Premium Rusk Rs. 10 & 20</p>
                                         </font>
                                     </div>
