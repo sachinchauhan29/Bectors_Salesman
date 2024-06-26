@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+  <link href="" rel="icon" type="image/png" />
+   <!--<meta http-equiv="refresh" content="5;url=spin.html" />    Chrome, Firefox OS and Opera -->
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#FFD700">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#FFD700">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#FFD700">
+  <title>JUSTHUMAN</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <style>
+    .module {
+      height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    .module__item {
+      align-items: center;
+      display: flex;
+      height: 100%;
+      justify-content: center;
+    }
+  </style>
+
+  <style>
+    .box {
+      margin: 11px 22px;
+      border: 1px solid #ccc;
+      font-weight: 100;
+      letter-spacing: 2px;
+      color: #999;
+
+      padding: 1px;
+      line-height: 1.4em;
+    }
+
+    .multiple {
+      border-radius: 3px;
+
+
+      box-shadow:
+        0 0 0 1px rgba(0, 0, 0, 0.452),
+        0 0 0 1px rgba(153, 153, 153, 0.479),
+        0 0 0 1px rgb(255, 170, 0),
+        0 0 0 10px rgba(102, 102, 102, 0.377),
+        0 0 0 16px rgba(255, 221, 0, 0.986),
+        0 0 0 18px rgba(0, 0, 0, 0.322);
+    }
+
+    .multiple img {
+      width: 100%;
+      height: 120px;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+
+  <div class="module">
+    <div class="logo"
+      style="text-align: center; margin-top: 30px; position: absolute; align-items: center; width: 100%;">
+      <img src="./assets/img/logo.png" alt="logo"
+        class="img-fluid" style="height: 100px;">
+    </div>
+
+    <div class="module__item">
+
+
+
+      <div class="bg">
+
+        <div class="header">
+
+
+
+          <span class="hts">
+            <font class="fnt">
+            </font>
+          </span>
+        </div>
+        <div class="crushrushbg">
+          <div class="bel be2">
+            <div class="shd" align="center">
+              <!-- <span class="tago "> your text </span> -->
+
+            </div>
+            <div class="belt ">
+              <div class="dd">
+                <div class="tag ">
+                  <!-- <span class="tago "> your text </span> -->
+                </div>
+
+
+                <hr>
+                <form action="spin.html" class="container" id="needs-validation" novalidate>
+
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12 col-12">
+                      <div class="form-group">
+                        <label class="text-inverse" for="inputEmail4">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Name" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                          Please Enter your Name.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label class="text-inverse" for="inputpassword">Mobile No</label>
+                        <input type="tel" class="form-control" id="Mobile No" placeholder="Mobile No" min="10" maxlength="10" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid Mobile No.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label class="text-inverse" for="code">Enter 8 digit code</label>
+                        <input type="tel" class="form-control" id=" code" placeholder="Enter 8 digit code" min="8" maxlength="8" autocomplete="off" required>
+                        <div class="invalid-feedback">
+                          Please provide a valid Enter 8 digit code.
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="col-lg-6 col-sm-6 col-12">
+                      <div class="form-group">
+                        <label class="text-inverse" for="select-menu">Select location</label>
+                        <select class="custom-select d-block form-control" id="image" required>
+                          <option value="">Location</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Please selected any option.
+                        </div>
+                      </div>
+                    </div> 
+
+                  </div>
+
+                  <hr>
+                  <div class="row">
+                    <div class="col-lg-12 col-sm-12 col-12 text-center">
+                      <button class="btn btn-info" type="submit">Submit form</button>
+                    </div>
+                  </div>
+                </form>
+
+
+                <div class="sep"></div>
+                <div>
+                  <!-- <form>
+
+                    <div align="center">
+                      <input type="button" value="UPLOAD IMG"  class="fbtn">&nbsp;&nbsp;&nbsp;
+                      <input type="button" value="UPLOAD IMG" class="fbtn">&nbsp;&nbsp;&nbsp;
+                      <input type="button" value="UPLOAD IMG" class="fbtn">
+                    </div>
+                  </form> -->
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+  <!-- <a href="" class="spinthewhill">
+
+    <img src="https://i02.appmifile.com/images/2019/09/10/6de51f12-d9c1-4101-a291-0bc377d330f6.gif" alt=""
+      class="img-fluid">
+
+  </a> -->
+
+  <script src="./assets/js/script.js"></script>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"></script>
+
+  <script>
+    (function () {
+      'use strict';
+      window.addEventListener('load', function () {
+        var form = document.getElementById('needs-validation');
+        form.addEventListener('submit', function (event) {
+          if (form.checkValidity() === false) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add('was-validated');
+        }, false);
+      }, false);
+    })();
+  </script>
+
+
+</body>
+
+</html>
